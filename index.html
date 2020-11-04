@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive-670.css" media="(max-width:670px)">
-    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+    <meta name="viewport" content="width=device-width">
     <script src="https://kit.fontawesome.com/81fa525496.js" crossorigin="anonymous"></script>
     <title>FC KYOTO TOP TEAM</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
   <body>
 
@@ -26,13 +27,35 @@
           </ul>
 
           <div class="bars">
-            <p class="fa fa-bars"></p>
+            <p id="bar" class="fa fa-bars"></p>
+          </div>
+
+          <div class="times">
+            <p id="times" class="fa fa-times"></p>
+
           </div>
 
 
 
         </div>
+
+
       </header>
+
+      <div class="modal" id="modal">
+        <div class="modal-list">
+          <ul>
+            <li> <a href="#traning">TRANING</a> </li>
+            <li> <a href="#players">PLAYERS</a> </li>
+            <li> <a href="#game">GAME</a> </li>
+            <li> <a href="#news">NEWS</a> </li>
+            <li> <a href="#recruit">RECRUIT</a> </li>
+            <li> <a href="#sns">SNS</a> </li>
+          </ul>
+        </div>
+
+
+      </div>
 
 
       <div class="top-wrapper">
@@ -293,5 +316,8 @@
 
 </div> <!-- site-wrapper 閉じタグ -->
 
+<script src="script.js">
+
+</script>
   </body>
 </html>

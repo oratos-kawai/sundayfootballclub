@@ -24,6 +24,34 @@ header {
   color: blue;
   font-size: 300%;
 }
+
+.times {
+  display:none;
+  margin-left: 80%;
+}
+
+.modal {
+  background-color: white;
+  margin-left: 75%;
+}
+
+.modal a {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+.modal ul {
+  list-style: none;
+}
+
+.modal li {
+  line-height: 250%;
+}
+
+.times p {
+  color: blue;
+  font-size: 300%;
+}
  header img {
    width: 15%;
    position: absolute;

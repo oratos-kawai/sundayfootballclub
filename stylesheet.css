@@ -18,6 +18,10 @@ header {
 .bars {
   display: none;
 }
+
+.times {
+  display: none;
+}
  header img {
    width: 15%;
    position: absolute;
@@ -51,6 +55,10 @@ header {
 .header-list a:hover {
   background-color: blue;
   color: white;
+}
+
+.modal {
+  display: none;
 }
 
 .top-wrapper img {
